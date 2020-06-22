@@ -121,7 +121,7 @@ namespace CourseLibrary.API.Services
         public IEnumerable<Author> GetAuthors()
         {
             //return _context.Authors.ToList<Author>();
-            return _context.Authors.Include(a => a.Courses).ToList<Author>();
+            return _context.Authors.Include(a => a.Courses).ToList();
         }
          
         public IEnumerable<Author> GetAuthors(IEnumerable<Guid> authorIds)

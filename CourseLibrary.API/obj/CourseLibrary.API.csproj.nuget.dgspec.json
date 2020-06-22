@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mukuro\\Desktop\\Course\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj": {}
+    "D:\\Dev\\sofiane\\BuildingRESTfulAPIAspNetCore3\\CourseLibrary.API\\CourseLibrary.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mukuro\\Desktop\\Course\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj": {
+    "D:\\Dev\\sofiane\\BuildingRESTfulAPIAspNetCore3\\CourseLibrary.API\\CourseLibrary.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mukuro\\Desktop\\Course\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
+        "projectUniqueName": "D:\\Dev\\sofiane\\BuildingRESTfulAPIAspNetCore3\\CourseLibrary.API\\CourseLibrary.API.csproj",
         "projectName": "CourseLibrary.API",
-        "projectPath": "C:\\Users\\Mukuro\\Desktop\\Course\\CourseLibrary\\CourseLibrary.API\\CourseLibrary.API.csproj",
-        "packagesPath": "C:\\Users\\Mukuro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mukuro\\Desktop\\Course\\CourseLibrary\\CourseLibrary.API\\obj\\",
+        "projectPath": "D:\\Dev\\sofiane\\BuildingRESTfulAPIAspNetCore3\\CourseLibrary.API\\CourseLibrary.API.csproj",
+        "packagesPath": "C:\\Users\\JEROME\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\sofiane\\BuildingRESTfulAPIAspNetCore3\\CourseLibrary.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mukuro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JEROME\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
